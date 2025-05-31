@@ -4,7 +4,7 @@ import os
 try:
     import pandas as pd
 except ImportError:
-    print('Erro: pandas não encotrado!')
+    print('Erro: A biblioteca pandas não foi encotrado!')
     print('Execute no terminal: pip install -r requirements.txt')
     sys.exit(1)
 try:
